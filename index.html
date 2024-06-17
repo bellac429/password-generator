@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1><span style="color: #111827;">Generate a</span><br><span style="color: #059669;"> random password</span></h1>
+        <p>Never use an insecure password again</p>
+        <button id="generate" onclick="displayPasswords()">Generate passwords</button>
+        <hr>
+        <div class="passwords">
+            <ul>
+                <button id="password-one-el" onclick="copyPasswordOne()">Password 1</button>
+                <button id="password-two-el" onclick="copyPasswordTwo()">Password 2</button>
+            </ul>
+        </div>
+        <p class="passwords">Click on a password to copy to clipboard!</p>
+        <script src="soln.js"></script>
+    </body>
+</html>
