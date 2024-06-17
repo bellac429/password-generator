@@ -34,6 +34,7 @@ function copyPasswordOne() {
     range.selectNode(copiedPassword)
     window.getSelection().addRange(range)
     document.execCommand("copy")
+    alert("Password has been copied!")
 }
 
 function copyPasswordTwo() {
@@ -44,4 +45,5 @@ function copyPasswordTwo() {
     range.selectNode(copiedPassword)
     window.getSelection().addRange(range)
     document.execCommand("copy")
+    alert("Password has been copied!")
 }
