@@ -19,6 +19,7 @@ function generatePassword() {
     return password
 }
 
+// display passwords in DOM
 function displayPasswords() {
     passwordOne.textContent = generatePassword()
     passwordTwo.textContent = generatePassword()
